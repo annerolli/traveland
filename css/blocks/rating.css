@@ -1,0 +1,20 @@
+.rating__item {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.rating__item img {
+    margin-right: 10px;
+}
+
+.rating__geo {
+    font-size: 20px;
+}
+
+
+.rating__item--position {
+    margin-right: 50px;
+}
+
+

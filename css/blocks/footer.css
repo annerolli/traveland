@@ -1,0 +1,101 @@
+.footer {
+    background: rgba(38, 148, 153, 0.04);
+}
+
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    font-style: normal;
+}
+
+
+.footer__link--email {
+    grid-column: 1 / span 4;
+    color: black;
+}
+
+
+.footer__link--email  a {
+    color: black;
+}
+
+
+.footer__logo + .footer__contact {
+    padding-top: 40px;
+}
+
+
+.footer__contact + address {
+    padding-top: 10px;
+}
+
+
+.footer__menu {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.footer__item {
+    flex-basis: 50%;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.footer__cont {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer__input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-right: 35px;
+    margin-top: 42px;
+}
+
+.footer__form {
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-end;
+}
+
+
+.footer__input {
+    flex-grow: 1;
+}
+
+
+.footer__button {
+    flex-shrink: 0;
+}
+
+.footer__input:focus {
+    outline: none;
+}
+

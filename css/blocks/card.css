@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 33px;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card__head {
+    box-sizing: border-box;
+    padding: 33px 27px;
+    display: block;
+}
+
+.card__before img {
+    display: block;
+    max-width: 100%;
+}
+

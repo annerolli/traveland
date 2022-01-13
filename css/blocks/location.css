@@ -1,0 +1,33 @@
+
+
+.location__title {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+
+.location__rating {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.location__period {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.location__price {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25,5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.location__price strong {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+}

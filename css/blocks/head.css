@@ -1,0 +1,12 @@
+.head--centered {
+    text-align: center;
+    padding: 140px 0 55px;
+}
+
+h1.head__title + .head__subtitle {
+    margin-top: 30px;
+}
+
+h2.head__title + .head__subtitle {
+    margin-top: 20px;
+}

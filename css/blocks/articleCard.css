@@ -1,0 +1,46 @@
+.articleCard img {
+    display: block;
+    width: 263px;
+}
+
+.articleCard a {
+    display: block;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.articleCard a:visited {
+    color: #000;
+}
+
+.articleCard {
+    display: flex;
+    align-items: center;
+}
+
+.articleCard h4 + p,
+.articleCard p + a {
+    padding-top: 10px;
+}
+
+.articleCard--layout-vertical img{
+    display: block;
+    width: 100%;
+}
+
+
+.articleCard--layout-vertical {
+    flex-direction: column;
+
+}
+
+.articleCard--layout-vertical img + div {
+    padding-top: 30px;
+    padding-left: 0;
+}
+
+.articleCard__info {
+    padding-left: 27px;
+}

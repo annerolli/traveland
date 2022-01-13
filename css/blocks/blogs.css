@@ -1,0 +1,11 @@
+.blogs {
+    padding-top: 140px;
+}
+
+.blogs__station a {
+    display: block;
+}
+
+.blogs__station a:visited {
+    color: #000;
+}

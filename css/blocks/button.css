@@ -1,0 +1,29 @@
+.button {
+    background-color: #C9453B;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    min-height: 44px;
+    padding: 10px 32px;
+    letter-spacing: 0.006em;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.button--size-medium {
+    min-height: 52px;
+    padding: 14px 36px;
+    letter-spacing: 0;
+}
+.button--size-large {
+    min-height: 60px;
+    padding: 18px 46px;
+    letter-spacing: 0;
+}
