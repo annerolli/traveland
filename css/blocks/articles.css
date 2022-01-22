@@ -13,3 +13,44 @@
 .article__item--layout-vertical {
     grid-row: 1 / span 3;
 }
+
+.article__link {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+
+.article__link:visited {
+    color: #000;
+}
+
+
+@media (max-width: 960px) {
+    .articles__list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        justify-content: space-around;
+    }
+
+    .articles__text {
+        font-size: 16px;
+    }
+
+    .article__link {
+        font-size: 18px;
+    }
+
+    .article__item--layout-vertical {
+        grid-row: 1;
+        grid-column: 1 / span 3;
+    }
+}
+
+@media (max-width: 636px) {
+    .articles__list {
+        display: block;
+        padding-bottom: 100px;
+    }
+}
