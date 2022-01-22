@@ -1,6 +1,9 @@
+.head {
+    padding: 140px 0 55px;
+}
+
 .head--centered {
     text-align: center;
-    padding: 140px 0 55px;
 }
 
 h1.head__title + .head__subtitle {
@@ -9,4 +12,37 @@ h1.head__title + .head__subtitle {
 
 h2.head__title + .head__subtitle {
     margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+    h2.head__title + .head__subtitle {
+        margin-top: 15px;
+    }   
+}
+
+@media (max-width: 600px) {
+    h2.head__title + .head__subtitle {
+        margin-top: 10px;
+    }   
+
+    h1.head__title + .head__subtitle {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 637px) and (max-width: 1140px) {
+    .head {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 636px) {
+    .head__subtitle {
+        font-size: 16px;
+    }
+
+    .head {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
 }
