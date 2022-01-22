@@ -1,15 +1,62 @@
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url('/assets/images/bg.png') no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url('/assets/images/bg.png');
+    background-repeat: no-repeat; 
+    background-position: center;
     background-size: cover;
     color: #fff;
     min-height: 100vh;
 }
 
 .hero__content {
+    max-width: 480px;
     padding-top: 150px;
     padding-bottom: 40px;
 }
 
 .hero__button {
     margin-top: 40px;
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        background-size: auto;
+        background-position: 80% 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero__content {
+        padding-top: 70px;
+    }
+    
+}
+
+@media (max-width: 812px) {
+    .hero__footer {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .hero__footer a:first-child {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 453px) {
+    .hero__footer a:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 813px) {
+    .hero__footerBooking {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 813px) {
+    .hero__footerBooking {
+        display: none;
+    }
 }
