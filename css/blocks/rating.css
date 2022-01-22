@@ -5,16 +5,13 @@
 }
 
 .rating__item img {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .rating__geo {
     font-size: 20px;
 }
 
-
 .rating__item--position {
-    margin-right: 50px;
+    margin-right: 15px;
 }
-
-
