@@ -1,13 +1,17 @@
-
-
 .location__title {
     padding-top: 20px;
     padding-bottom: 8px;
 }
 
 
+.location__image {
+    display: block;
+    width: 100%;
+}
+
 .location__rating {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 8px;
 }
 
@@ -30,4 +34,19 @@
     font-size: 18px;
     line-height: 27px;
     color: rgba(0, 0, 0, 1);
+}
+
+
+@media (max-width: 1178px) {
+    .location__info {
+        padding-left: 10px;
+    }
+    .location__period {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .location__price {
+        display: inline-block;
+    }
 }

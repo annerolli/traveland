@@ -6,3 +6,39 @@
     padding-bottom: 35px;
 }
 
+.header__nav {
+    flex-grow: 1;
+}
+
+@media (min-width: 320px) and (max-width: 813px) {
+    .header {
+        flex-wrap: wrap;
+    }
+    
+    .header__nav {
+        display: none;
+    }
+
+    .header__button {
+        display: inline-block;
+    }
+
+    .header__bookingNow {
+        display: none;
+    }
+}
+
+@media (min-width: 813px) {
+    .header__nav {
+        display: block;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .header__bookingNow {
+        display: inline-block;
+    }
+}
+
