@@ -3,3 +3,10 @@
     margin-right: auto;
     max-width: 1140px;
 }
+
+@media (max-width: 1140px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
